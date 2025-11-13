@@ -18,8 +18,9 @@ TOPNAV
   color: var(--text-tertiary) !important;
   
   /* Visual */
-  background-color: var(--bg-tertiary) !important;
-  border-bottom: 1px solid var(--border-primary);
+  background-color: var(--avocado-green) !important;
+  border-bottom: 3px solid var(--walnut-brown);
+  box-shadow: var(--shadow-md);
 }
 
 .navbar-brand {
@@ -51,34 +52,40 @@ TOPNAV
   /* Typography */
   text-decoration: none;
   color: var(--text-tertiary);
+  font-weight: 500;
   
   /* Visual */
   border-radius: var(--radius-sm);
+  border: 2px solid transparent;
   
   /* Interactivity */
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
   /* Typography */
-  color: var(--text-tertiary);
+  color: white;
   
   /* Visual */
-  background: var(--interactive-hover);
+  background: var(--walnut-brown);
+  border-color: var(--mustard-yellow);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 ul .dropdown-menu {
   /* Visual */
-  background-color: var(--bg-tertiary) !important;
+  background-color: var(--burnt-orange) !important;
 }
 
 .nav-link.dropdown-toggle.show {
   /* Typography */
-  color: var(--text-tertiary);
+  color: white;
   
   /* Visual */
-  background-color: var(--interactive-hover);
+  background-color: var(--walnut-brown);
+  border-color: var(--mustard-yellow);
 }
 
 /*****************************************************

@@ -35,15 +35,21 @@ h1 {
   
   /* Typography */
   font-size: 2.8rem;
+  color: var(--mustard-dark);
 }
 
 h2 {
   /* Box Model */
   margin-top: var(--spacing-lg);
   margin-bottom: var(--spacing-xs);
+  padding-bottom: var(--spacing-xs);
   
   /* Typography */
-  font-size: 2.2rem;
+  font-size: 2rem;
+  color: var(--mustard-light);
+  
+  /* Visual */
+  border-bottom: 2px solid var(--border-secondary);
 }
 
 h3 {
@@ -53,6 +59,7 @@ h3 {
   
   /* Typography */
   font-size: 1.7rem;
+  color: var(--avocado-green);
 }
 
 h4 {
@@ -62,6 +69,7 @@ h4 {
   
   /* Typography */
   font-size: 1.3rem;
+  color: var(--clay-red);
 }
 
 h5 {
@@ -102,7 +110,10 @@ a {
   color: var(--text-link);
   
   /* Visual */
-  border-bottom: 1px dotted var(--text-link);
+  border-bottom: 1px dotted var(--teal-blue);
+  
+  /* Interactivity */
+  transition: color var(--transition-fast), border-color var(--transition-fast);
 }
 
 a:visited {
@@ -110,12 +121,16 @@ a:visited {
   color: var(--text-link);
   
   /* Visual */
-  border-bottom: 1px dotted var(--text-link);
+  border-bottom: 1px dotted var(--teal-blue);
 }
 
 a:hover {
   /* Typography */
+  color: var(--burnt-orange);
   text-decoration: none;
+  
+  /* Visual */
+  border-bottom-color: var(--burnt-orange);
 }
 
 .map-card {
@@ -153,7 +168,8 @@ CODE BLOCKS
   padding: var(--spacing-xs);
   
   /* Visual */
-  background: var(--sage);
+  background: var(--bg-secondary-light);
+  border: 1px solid var(--border-secondary);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
 }
@@ -192,15 +208,15 @@ FOOTNOTE STYLING
   color: white;
   
   /* Visual */
-  background: var(--clay);
+  background: var(--burnt-orange);
   border: none;
   border-radius: 50%;
   box-shadow: var(--shadow-sm);
-  opacity: 0.6;
+  opacity: 0.7;
   
   /* Interactivity */
   cursor: pointer;
-  transition: background var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 
 .littlefoot__button:hover,
@@ -209,8 +225,10 @@ FOOTNOTE STYLING
   color: white;
   
   /* Visual */
-  background: var(--text-primary);
+  background: var(--clay-red);
+  opacity: 1;
   outline: none;
+  transform: scale(1.1);
 }
 
 
@@ -231,7 +249,7 @@ blockquote {
   quotes: """ """ "'" "'";
   
   /* Visual */
-  border-left: 4px solid var(--text-muted);
+  border-left: 4px solid var(--mustard-yellow);
 }
 
 

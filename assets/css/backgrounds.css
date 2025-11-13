@@ -27,8 +27,9 @@ BACKGROUNDs
   
   /* Visual */
   background: white;
+  border: 2px solid var(--border-secondary);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
 }
   
 
@@ -111,8 +112,9 @@ STICKY BACKGROUND
   
   /* Visual */
   background: white;
+  border: 2px solid var(--border-secondary);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
 }
 
 

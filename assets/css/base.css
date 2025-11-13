@@ -12,50 +12,52 @@ PAGE SETUP
 }
 
   :root {
-  /* Base color palette */
-  --clay: #b8614b;
-  --sage: #bbb89c;
-  --sand: #dbceb6;
-  --sand-light: #eae4d7;
-  --brown: #925737;
-  --bone: #F5EFE6;
-  --dark: #1b0b02;
+  /* Core Mid-Century Modern Palette */
+  --avocado-green: #6f7007;
+  --mustard-light: #e3bb4f;
+  --mustard-dark: #b78e14;
+  --walnut-brown: #5B3A29;
+  --clay-red: #B84A39;
+  --sky-blue: #98aaca;
+  --warm-gray: #CFC8B6;
+  --cream: #fcfae4;
+  
 
   /* Background colors */
-  --bg-primary: var(--bone);
-  --bg-secondary: var(--sand);
-  --bg-secondary-light: var(--sand-light);
-  --bg-tertiary: var(--dark);
-  --bg-accent: var(--clay);
+  --bg-primary: var(--cream);
+  --bg-secondary: var(--warm-gray);
+  --bg-secondary-light: #E8E3D6;
+  --bg-tertiary: var(--burnt-orange);
+  --bg-accent: var(--teal-blue);
 
   /* Text colors */
-  --text-primary: #3a1602;
-  --text-secondary: #413b31;
-  --text-tertiary: var(--sand);
-  --text-accent: var(--clay);
-  --text-link: var(--clay);
-  --text-muted: #666;
+  --text-primary: var(--walnut-brown);
+  --text-secondary: var(--avocado-green);
+  --text-tertiary: var(--cream);
+  --text-accent: var(--clay-red);
+  --text-link: var(--teal-blue);
+  --text-muted: #8A8175;
 
   /* Border colors */
-  --border-primary: var(--brown);
-  --border-secondary: #ccc;
+  --border-primary: var(--walnut-brown);
+  --border-secondary: #D1BBA3;
   --border-light: rgba(0, 0, 0, 0.1);
 
   /* Interactive states */
-  --interactive-hover: var(--clay);
-  --interactive-active: var(--brown);
+  --interactive-hover: var(--teal-blue);
+  --interactive-active: var(--clay-red);
 
   /* Semantic status colors */
-  --success: #28a745;
-  --warning: #ffc107;
-  --error: #dc3545;
-  --info: #5b9aa0; /* Desert sky teal */
+  --success: var(--avocado-green);
+  --warning: var(--mustard-yellow);
+  --error: var(--clay-red);
+  --info: var(--teal-blue);
 
   /* Shadows */
-  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-hover: 0 4px 12px rgba(255, 193, 7, 0.4);
+  --shadow-sm: 0 1px 4px rgba(91, 58, 41, 0.08);
+  --shadow-md: 0 2px 8px rgba(91, 58, 41, 0.12);
+  --shadow-lg: 0 4px 12px rgba(91, 58, 41, 0.15);
+  --shadow-hover: 0 4px 12px rgba(212, 160, 23, 0.3);
 
   /* Fonts */
   --font-heading: 'Inter', sans-serif;
@@ -279,8 +281,8 @@ footer {
   color: var(--text-tertiary);
   
   /* Visual */
-  background-color: var(--bg-tertiary);
-  border-top: 2px solid var(--border-primary);
+  background-color: var(--burnt-orange);
+  border-top: 3px solid var(--walnut-brown);
 }
 
 .site-footer {
