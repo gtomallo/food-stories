@@ -15,11 +15,11 @@ tags:
 # Generic Story Title
 This story comes from Grace Tomallo, how baking bread with her grandmother taught her the importance of food and connection between people.
 
-{% include figure.html
+{% include IMG_5043 2.jpg
   class="right"
   width="40%"
-  caption="What a nice view"
-  image-path="bbq.png"
+  caption="Soda Bread Master"
+  image-path="IMG_5043 2.jpg"
 %}
 
 
