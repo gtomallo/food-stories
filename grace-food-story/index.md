@@ -1,19 +1,19 @@
 ---
 title: 
 author: Grace Tomallo
-location: Durham, NC
-thumbnail: bbq.png
-summary: My first BBQ was hosted by Chef Boyardee and everyone was very happy. Yummy!
-date: 2025-08-01
+location: Moriarty, NM
+thumbnail: 
+summary: My Grandmother teaching me how to make bread on the floor and how it kneeded me into the person I am today.
+date: 2009
 layout: base
 tags:
-  - BBQ
-  - cookout
-  - community
+  - Bread
+  - Hard Wood Floors
+  - Core
 ---
 
 # Generic Story Title
-This story comes from Jordan Lee, who grew up in Chicago, where “barbecue” usually meant something you did on a gas grill in the backyard. She moved to North Carolina for school, and that’s where she got invited to her first real Southern barbecue. 
+This story comes from Grace Tomallo, how baking bread with her grandmother taught her the importance of food and connection between people.
 
 {% include figure.html
   class="right"
