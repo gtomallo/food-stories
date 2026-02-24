@@ -15,7 +15,7 @@ tags:
 # Generic Story Title
 This story comes from Grace Tomallo, how baking bread with her grandmother taught her the importance of food and connection between people.
 
-{% include IMG_5043 2.jpg
+{% include figure.html
   class="right"
   width="40%"
   caption="Soda Bread Master"
@@ -27,7 +27,7 @@ This story comes from Grace Tomallo, how baking bread with her grandmother taugh
 As a three-year-old, Grace couldn’t have known that the smell of cigarette smoke, the yellow cabinets, and the hardwood floors would one day become symbols of nostalgia and comfort. In that small trailer, where she first learned to make soda bread, she experienced true love and discovered her purpose—to bring people together through food.
 
 {% include audio.html
-  src="bbq.mp3"
+  src="Marcheta Ave NE 3.m4a"
 %}
 
 
