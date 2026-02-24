@@ -1,5 +1,5 @@
 ---
-title: 
+title: The Knead for bread
 author: Grace Tomallo
 location: Moriarty, NM
 thumbnail: 
