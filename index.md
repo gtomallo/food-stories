@@ -1,7 +1,7 @@
 ---
-title: Food Stories 
+title: The Table
 layout: base
-date: 2024-12-02
+date: 2026-01-12
 ---
 
 # American Food Stories
